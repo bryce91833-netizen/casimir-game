@@ -721,7 +721,7 @@ function drawTitle() {
   drawCentered(['Chapter 1 \u2014 The Crossing'], 245, 'italic 22px Georgia', '#e8d9a8');
   const a = 0.5 + Math.sin(sceneT * 3) * 0.5; ctx.globalAlpha = a;
   drawCentered(['Click or press Enter to begin'], 330, '20px Georgia', '#fff'); ctx.globalAlpha = 1;
-  drawCentered(['WASD / Arrows \u2014 move     Mouse \u2014 aim', 'Left click / Space \u2014 sword slash     Right click / E \u2014 Shadowflame bolt', 'Shift \u2014 dash (brief invulnerability)     Inky fights and heals on her own'], 400, '15px Georgia', '#b8a878', 24);
+  drawCentered(['WASD / Arrows \u2014 move     Mouse \u2014 aim', 'Left click / Space \u2014 sword slash     Right click / E \u2014 Shadowflame bolt', 'Shift \u2014 dash (brief invulnerability)     Inky fights and heals on his own'], 400, '15px Georgia', '#b8a878', 24);
 }
 function drawStory() {
   ctx.fillStyle = '#07070c'; ctx.fillRect(0, 0, W, H);
